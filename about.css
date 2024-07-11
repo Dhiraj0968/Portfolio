@@ -1,0 +1,75 @@
+.about{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(./architecture-concept-with-copyspace-top.jpg);
+    background-attachment: fixed;
+
+    height: 990px;
+
+}
+@media(width<600px){
+    .about{
+        font-size: medium;
+        width: fit-content;
+    }
+        .menu{
+            font-size: large;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1{
+        display: none;
+        width: 200px;
+        }
+        .b{
+            display: block;
+        }
+
+}
+@media(width<1000px){
+    .about{
+        font-size: medium;
+        width: fit-content;
+    }
+        .menu{
+            font-size: large;
+            display: flex;
+            text-align: left;
+        }
+        h1{
+        display: none;
+        width: 200px;
+        }
+        .b{
+            display: block;
+        }
+
+}
+.Mission{
+    background-image: url(./back1.jpg);
+    background-position: 0%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:whitesmoke;
+}
+p{
+    text-align: start;
+    font-size: 20px;
+}
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.menu{
+    background-color: blanchedalmond;
+    font-size: 30px;
+    text-align: right;
+}
+a{
+    margin-left: 10px;
+}
+h1{
+    display: block;
+}
+h2{
+    display: none;
+}
