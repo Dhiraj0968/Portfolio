@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            align-items: center;
+            background-color: rgb(190, 204, 202);
+        }
+        .main{
+            width: 450px;
+            height: 550px;
+            margin: 100px 300px;
+            /* border: 2px solid black; */
+            border-radius: 25px;
+            position:relative;
+            background-color: rgb(255, 255, 255);
+            
+        }
+        .profile{
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            position: absolute;
+            top: 125px;
+            left: 150px;
+            background-color: lightskyblue;
+            
+        }
+        .pro{
+            border-radius: 75px;
+        }   
+       .name{
+            width: 450px;
+            height: 30px;
+            text-align: center;
+       }
+       .bg{
+            width: 450px;
+            height: 200px;
+            border-radius: 25px;
+       }
+       .backgraund{
+        border-radius: 25px;
+       }
+       .space{
+            height: 80px;
+            width: 450px;
+       }
+       .bio{
+            text-align: center;
+            align-content: center;
+            height: 50px;
+       }
+       .address{
+            display: flex;
+            height: 50px;
+            width: 450px;
+            text-align: center;
+            align-content: center;
+            justify-content: space-evenly;
+       }
+       .add,.email{
+            align-items: center;
+            align-content: center;
+            height: 50px;
+            width: max-content;
+       }
+       .followdetail{
+            display: flex;
+            height: 70px;
+            border-top: 1px solid rgb(131, 222, 238);
+       }
+       .followers,.following{
+        height: 70px;
+        width: 225px;
+        border-left: 1px solid rgb(131, 222, 238);
+
+       }
+       .num,.f{
+            text-align: center;
+            align-content: center;
+       }
+       .p{
+        align-content: center;
+        margin: 0px 25px;
+        width: 450px;
+        height: 70px;
+
+       }
+       .botton{
+        background-color: rgb(25, 43, 207);
+        border: 5px;
+        border-radius: 25px;
+        width: 400px;
+        height: 50px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="bg">
+            <img src="./kundan.jpg"
+            style="width: 450px ;
+            height: 200px;
+            border-radius: 25px;">
+        </div>
+        <div class="profile">
+            <img src="./profile.jpg"
+            style="width: 150px;
+            height: 150px;
+            border-radius: 75px;">
+        </div>
+        <div class="space"></div>
+        <div class="name">
+            <h2>Dhiraj Patil</h2>
+        </div>
+        <div class="bio">Computer Science Engineer</div>
+        <div class="address">
+            <div class="add">⚲ Shirpur,India</div>
+            <div class="email"><samp>✉</samp><a href="Dhirajpatil@gmail.com">Dhirajpatil@gmail.com</a></div>
+        </div>
+        <div class="followdetail">
+            <div class="followers">
+                <div class="num">
+                    <h1>1M</h1>
+                </div>
+                <div class="f">
+                    <p>Followers</p>
+                </div>
+            </div>
+            <div class="following">
+                <div class="num">
+                    <h1>13</h1>
+                </div>
+                <div class="f">
+                    <p>Following</p>
+                </div>
+            </div>
+        </div>
+        <div class="p">
+            <div class="botton">
+                <h3>Follow</h3>
+            </div>
+         </div>
+    </div>   
+</body>
+</html>

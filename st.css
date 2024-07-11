@@ -1,0 +1,36 @@
+
+  a{
+    font-size:xx-large;    text-align: center;
+    margin-left: 10px;
+  }
+  .dhiraj{
+    margin-top: -500px;
+    margin-left: 500px;
+    text-align: start;
+  }
+  .menu{
+    background-attachment: fixed;
+    background-color: aquamarine;
+    
+  }
+  .about{
+    background:none;
+    background-image: url(1600.webp);
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-google {
+    color:red;
+  }
+  .fa-linkedin {
+    color: blue;
+  }
+  .fa-whatsapp{
+    color: green;
+  }
